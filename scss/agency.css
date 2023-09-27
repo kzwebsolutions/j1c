@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 32px;
 }
 
 .img-centered {
@@ -147,6 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
+  width: 100px;
   color: #11468F;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
@@ -257,7 +259,7 @@ header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 50px;
     line-height: 75px;
     margin-bottom: 50px;
   }
