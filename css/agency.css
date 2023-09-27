@@ -61,7 +61,7 @@ margin: 12px auto 0;
 
 @media (max-width: 992px) {
 .counter {
- margin-bottom: 40px;
+ margin-bottom: 50px;
  border-bottom: #222222 solid 2px;
 }
 }
@@ -111,9 +111,11 @@ h6 {
   color: white;
   background-color: #11468F;
   border-color: #11468F;
+  width: 100px;
+  height: 30px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -160,7 +162,7 @@ fieldset[disabled] .btn-primary.active {
   font-weight: 700;
   border-radius: 3px;
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 10px 20px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -316,7 +318,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  text-align: left;
+  text-align: center;
   color: white;
 }
 header .intro-text {
@@ -337,6 +339,11 @@ header .intro-text .intro-heading {
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
+}
+.cont{
+  text-align: center;
+  margin: auto;
+  justify-content: center;
 }
 @media (min-width: 768px) {
   header .intro-text {
